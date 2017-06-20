@@ -243,7 +243,7 @@ div#navTitle:hover {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
-  font: bold 16px sans-serif;
+  font: bold 16px;
   text-align: left;
 
   padding: 50px 60px 40px;
@@ -268,35 +268,28 @@ div#navTitle:hover {
 .footer-distributed h3 span{
   color:  #5383d3;
 }
-
 /* Footer links */
-
 .footer-distributed .footer-links{
   color:  #ffffff;
   margin: 0 0 10px;
   padding: 0;
 }
-
 .footer-distributed .footer-links a{
   display:inline-block;
   line-height: 1.8;
   text-decoration: none;
   color:  inherit;
 }
-
 .footer-distributed .footer-company-name{
   color:  #8f9296;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
 }
-
 /* Footer social icons */
-
 .footer-distributed .footer-icons{
   margin-top: 40px;
 }
-
 .footer-distributed .footer-icons a{
   display: inline-block;
   width: 35px;
@@ -304,31 +297,24 @@ div#navTitle:hover {
   cursor: pointer;
   background-color:  #33383b;
   border-radius: 2px;
-
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
-
   margin-right: 3px;
   margin-bottom: 5px;
 }
-
 /* Footer Right */
-
 .footer-distributed .footer-right{
   float: right;
 }
-
 .footer-distributed .footer-right p{
   display: inline-block;
   vertical-align: top;
   margin: 15px 42px 0 0;
   color: #ffffff;
 }
-
 /* The contact form */
-
 .footer-distributed form{
   display: inline-block;
 }
@@ -386,7 +372,7 @@ div#navTitle:hover {
   float: right;
 }
 
-/* the footer to be responsive*/
+/*  responsive media queries */
 
 @media (max-width: 1000px) {
 
@@ -437,5 +423,3 @@ div#navTitle:hover {
   .footer-distributed form button{
     float: none;
   }
-}
-
